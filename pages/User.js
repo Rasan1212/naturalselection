@@ -239,8 +239,8 @@ const User = ({ cactigors, item, brand, user }) => {
                 </tr>
               </thead>
               <tbody>
-                {data.data[0].invoice.map((invoice) => (
-                  <tr className="bg-white border-b cursor-pointer" onClick={() => { setinvoice_detail(invoice.item_invoice); setshowModal(true) }}>
+                {data.data[0].invoice.map((invoice, index) => (
+                  <tr key={index} className="bg-white border-b cursor-pointer" onClick={() => { setinvoice_detail(invoice.item_invoice); setshowModal(true) }}>
                     <td className="px-6 py-4">{invoice.total_qty}</td>
                     <td className="px-6 py-4">{invoice.total_price}</td>
                     <td className="px-6 py-4">{invoice.invoice_date}</td>
