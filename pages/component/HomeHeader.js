@@ -25,8 +25,8 @@ const HomeHeader = ({ cover }) => {
         }}
         modules={[Autoplay, EffectFade]}
       >
-        {cover?.data?.map((lis) => (
-          <SwiperSlide>
+        {cover?.data?.map((lis, index) => (
+          <SwiperSlide key={index}>
             <SwiperCard
               img={'https://dashboardnaturalselection.com/api/uploads/' + lis.cover_image}
               title1={langg == "En" ? lis.cover_txt1_en : langg == "Ar" ? lis.cover_txt1_ar : lis.cover_txt1_ku}

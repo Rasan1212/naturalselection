@@ -23,8 +23,9 @@ const NewLatest = ({ offer }) => {
         {/*  */}
         <div className="w-full flex flex-wrap justify-between mt-10">
           {/*  */}
-          {offer.data.map((lis) => (
+          {offer?.data?.map((lis, index) => (
             <div
+              key={index}
               data-aos="fade-down"
               data-aos-easing="linear"
               data-aos-duration="1500"

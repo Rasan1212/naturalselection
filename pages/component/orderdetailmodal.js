@@ -51,8 +51,8 @@ const Orderdetailmodal = props => {
                                                     </tr>
                                                 </thead>
                                                 <tbody>
-                                                    {props.invoice_detail.map((invoice) => (
-                                                        <tr className="bg-white border-b cursor-pointer">
+                                                    {props.invoice_detail.map((invoice, index) => (
+                                                        <tr className="bg-white border-b cursor-pointer" key={index}>
                                                             <td className="px-6 py-4">{langg == "En" ? invoice.item_name : langg == "Ar" ? invoice.item_name_ar : invoice.item_name_ku}</td>
                                                             <td className="px-6 py-4">{invoice.item_price}</td>
                                                             <td className="px-6 py-4">{invoice.item_qty}</td>
