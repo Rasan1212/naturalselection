@@ -3,6 +3,7 @@ import React from "react";
 import Head from 'next/head';
 import Navbar from "./component/Navbar";
 import { useSelector } from "react-redux";
+import Logoo from '../styles/logo.png';
 
 
 export async function getServerSideProps() {
@@ -19,6 +20,13 @@ const Contact = ({ cactigors, item, brand }) => {
   const langg = useSelector((state) => state.cart.language);
   return (
     <div dir={langg == "En" ? "ltr" : "rtl"}>
+      <Head>
+        <title>Natural Selection Contact Us</title>
+        <meta name="description" content="Natural Selection An Easy Way For Shopping" />
+        <meta property="og:title" content="Natural Selection Contact Us" />
+        <meta property="og:description" content="Natural Selection An Easy Way For Shopping" />
+        <meta property="og:image" content={Logoo} />
+      </Head>
       <Navbar cactigors={cactigors} brand={brand} />
       <Header />
       <div className="flex justify-center text-lg md:text-2xl lg:text-3xl mt-10  font-semibold">

@@ -4,6 +4,7 @@ import Head from 'next/head';
 import { format } from "date-fns";
 import Navbar from "./component/Navbar";
 import { useSelector, useDispatch } from "react-redux";
+import Logoo from '../styles/logo.png';
 
 export async function getServerSideProps() {
   const res = await fetch(
@@ -181,6 +182,13 @@ const SignUp = ({ cactigors, item, brand }) => {
 
   return (
     <>
+      <Head>
+        <title>Natural Selection Sign up</title>
+        <meta name="description" content="Natural Selection An Easy Way For Shopping" />
+        <meta property="og:title" content="Natural Selection Sign up" />
+        <meta property="og:description" content="Natural Selection An Easy Way For Shopping" />
+        <meta property="og:image" content={Logoo} />
+      </Head>
       <Navbar cactigors={cactigors} brand={brand} className="" />
       <div className=" pt-24 mb-32  ">
         <div className="text-xl md:text-2xl lg:text-4xl font-bold text-black   flex items-center justify-center my-10 mt-32 ">

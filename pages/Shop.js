@@ -5,6 +5,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 import Navbar from "./component/Navbar";
+import Logoo from '../styles/logo.png';
+import Head from 'next/head';
 
 export async function getServerSideProps() {
   const res = await fetch(
@@ -20,6 +22,13 @@ export async function getServerSideProps() {
 const Shop = ({ cactigors, item, brand }) => {
   return (
     <div className="">
+      <Head>
+        <title>Natural Selection Brands</title>
+        <meta name="description" content="Natural Selection An Easy Way For Shopping" />
+        <meta property="og:title" content="Natural Selection Brands" />
+        <meta property="og:description" content="Natural Selection An Easy Way For Shopping" />
+        <meta property="og:image" content={Logoo} />
+      </Head>
       <Navbar cactigors={cactigors} brand={brand} />
       <Header />
       `

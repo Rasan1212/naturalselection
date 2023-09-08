@@ -30,6 +30,13 @@ const Categoryitem = ({ cactigors, item, brand, cat }) => {
 
     return (
         <>
+            <Head>
+                <title>{cat.cat[0].category_name}</title>
+                <meta name="description" content="Natural Selection An Easy Way For Shopping" />
+                <meta property="og:title" content={cat.cat[0].category_name} />
+                <meta property="og:description" content="Natural Selection An Easy Way For Shopping" />
+                <meta property="og:image" content={`https://dashboardnaturalselection.com/api/uploads/${cat.cat[0].category_image}`} />
+            </Head>
             <Navbar cactigors={cactigors} brand={brand} />
             <div className="pt-32" dir={langg == "En" ? "ltr" : "rtl"}>
                 <div className="flex items-center justify-center text-xl md:text-2xl lg:text-4xl font-semibold h-[150px]   bg-cover bg-center bg-no-repeat">

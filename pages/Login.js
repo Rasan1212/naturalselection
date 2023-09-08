@@ -5,6 +5,7 @@ import Link from "next/link";
 import Navbar from "./component/Navbar";
 import { useSelector } from "react-redux";
 import Head from 'next/head';
+import Logoo from '../styles/logo.png';
 
 // 
 export async function getServerSideProps() {
@@ -114,11 +115,11 @@ const Login = ({ cactigors, item, brand }) => {
   return (
     <>
       <Head>
-        <title>My Page Title</title>
-        <meta name="description" content="This is the description of my page" />
-        <meta property="og:title" content="My Page Title for Social Sharing" />
-        <meta property="og:description" content="Description for social sharing" />
-        <meta property="og:image" content="https://example.com/image.jpg" />
+        <title>Natural Selection Login</title>
+        <meta name="description" content="Natural Selection An Easy Way For Shopping" />
+        <meta property="og:title" content="Login" />
+        <meta property="og:description" content="Natural Selection An Easy Way For Shopping" />
+        <meta property="og:image" content={Logoo} />
       </Head>
       <Navbar cactigors={cactigors} brand={brand} />
       <div className="pt-24 px-4 md:px-8 lg:px-32 xl:px-40">
