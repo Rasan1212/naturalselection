@@ -114,15 +114,15 @@ const Login = ({ cactigors, item, brand }) => {
   };
   return (
     <>
-      <Head>
-        <title>Natural Selection Login</title>
-        <meta name="description" content="Natural Selection An Easy Way For Shopping" />
-        <meta property="og:title" content="Login" />
-        <meta property="og:description" content="Natural Selection An Easy Way For Shopping" />
-        <meta property="og:image" content={Logoo} />
-      </Head>
       <Navbar cactigors={cactigors} brand={brand} />
       <div className="pt-24 px-4 md:px-8 lg:px-32 xl:px-40">
+        <Head>
+          <title>Natural Selection Login</title>
+          <meta name="description" content="Natural Selection An Easy Way For Shopping" />
+          <meta property="og:title" content="Login" />
+          <meta property="og:description" content="Natural Selection An Easy Way For Shopping" />
+          <meta property="og:image" content={`https://dashboardnaturalselection.com/api/uploads/logo.png`} />
+        </Head>
         <div className="flex w-full h-screen justify-center mt-20">
           <div className="w-full ">
             <div className="flex items-center justify-center">

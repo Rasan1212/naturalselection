@@ -27,7 +27,7 @@ const Shop = ({ cactigors, item, brand }) => {
         <meta name="description" content="Natural Selection An Easy Way For Shopping" />
         <meta property="og:title" content="Natural Selection Brands" />
         <meta property="og:description" content="Natural Selection An Easy Way For Shopping" />
-        <meta property="og:image" content={Logoo} />
+        <meta property="og:image" content={`https://dashboardnaturalselection.com/api/uploads/logo.png`} />
       </Head>
       <Navbar cactigors={cactigors} brand={brand} />
       <Header />
