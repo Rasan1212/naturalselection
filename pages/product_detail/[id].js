@@ -69,6 +69,13 @@ const Item_Detail = ({ cactigors, item, brand }) => {
     };
     return (
         <>
+            <Head>
+                <title>{items[0].item_name}</title>
+                <meta name="description" content={items[0].item_description} />
+                <meta property="og:title" content={items[0].item_name} />
+                <meta property="og:description" content={items[0].item_description} />
+                <meta property="og:image" content={`https://dashboardnaturalselection.com/api/uploads/${items[0].image[0].item_image_name}`} />
+            </Head>
             <Navbar cactigors={cactigors} brand={brand} />
             <div className="px-4 md:px-8 lg:px-32 xl:px-40 pt-44 mb-40" dir={langg == "En" ? "ltr" : "rtl"}>
                 <div className="grid grid-cols-1 gap-10 lg:grid-cols-2">
