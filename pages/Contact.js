@@ -35,19 +35,13 @@ const Contact = ({ cactigors, item, brand }) => {
       <div className="flex justify-center ">
         <div className="h-[2px] w-16 mt-5 bg-lime-600"></div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-4 md:px-8 lg:px-32 xl:px-40 my-20 border-b pb-20">
-        <div className="text-center">
-          <div className="flex justify-center">
-            <i class="fa-sharp fa-solid fa-location-dot text-lime-600 lg:text-3xl mb-10"></i>
-          </div>
-          <div>{langg == "En" ? "203, Envato Labs, Behind Alis Steet" : langg == "Ar" ? "" : ""}</div>
-        </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 px-4 md:px-8 lg:px-32 xl:px-40 my-20 border-b pb-20">
         <div className="text-center">
           <div className="flex justify-center">
             <i class="fa-solid fa-phone text-lime-600 lg:text-3xl mb-10"></i>
           </div>
           <div>
-            {langg == "En" ? "+964 750 491 6034" : langg == "Ar" ? "+964 750 491 6034" : "+964 750 491 6034"}
+            {langg == "En" ? "+964 750 491 6034 / +964 783 483 7363" : langg == "Ar" ? "+964 750 491 6034 / +964 783 483 7363" : "+964 750 491 6034 / +964 783 483 7363"}
           </div>
         </div>{" "}
         <div className="text-center">

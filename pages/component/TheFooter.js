@@ -20,7 +20,7 @@ const TheFooter = () => {
 
         <div className="flex items-center justify-center lg:mb-0  gap-8 mb-2 ">
           <a href="https://www.facebook.com/profile.php?id=100078158117547"><i className="fa-brands fa-facebook-f hover:text-lime-600 transition-all duration-700 cursor-pointer"></i></a>
-          <a href="https://www.instagram.com/thaliabeauty.iq/"><i className="fa-brands fa-linkedin-in hover:text-lime-600 transition-all duration-700 cursor-pointer"></i></a>
+          <a href="https://www.instagram.com/thaliabeauty.iq/"><i className="fa-brands fa-instagram hover:text-lime-600 transition-all duration-700 cursor-pointer"></i></a>
           <a href="https://www.tiktok.com/@thalia_natural_beauty"><i className="fa-brands fa-tiktok hover:text-lime-600 transition-all duration-700 cursor-pointer"></i></a>
         </div>
       </div>
