@@ -64,7 +64,7 @@ const Search = ({ cactigors, item, brand }) => {
                 <meta name="description" content={`Results of :` + id} />
                 <meta property="og:title" content={`Results of :` + id} />
                 <meta property="og:description" content={`Results of :` + id} />
-                <meta property="og:image" content={`https://dashboardnaturalselection.com/api/uploads/${items[0].image[0].item_image_name}`} />
+                <meta property="og:image" content={`https://dashboardnaturalselection.com/api/uploads/${iitems[0]?.image[0]?.item_image_name}`} />
             </Head>
             <Navbar cactigors={cactigors} brand={brand} />
             <div className='pt-48'>
