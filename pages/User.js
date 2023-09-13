@@ -38,7 +38,7 @@ export async function getServerSideProps(context) {
 
   const data = await res.json();
   return {
-    props: { cactigors: { data: data.category }, item: { item: data.item }, brand: { data: data.brand }, user: { data: data.data } },
+    props: { cactigors: { data: data.category }, item: { item: data.item }, brand: { data: data.brand }, user: { data: data.data || [] } },
     // revalidate: 10,
   };
 }

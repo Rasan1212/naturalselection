@@ -14,6 +14,8 @@ const Navbar = ({ cactigors, brand }) => {
   const [branButton, setBrandButton] = useState(true);
   const [langtoggle, setlangtoggle] = useState(false);
   const [search, setsearch] = useState('');
+  const [error, seterror] = useState(false);
+
   function handleCAtigory(e) {
     if (e === filter) {
       setFilter("1");
@@ -391,7 +393,7 @@ const Navbar = ({ cactigors, brand }) => {
           onChange={(val) => { setsearch(val.target.value) }}
         />
         <Link className="w-1/12 flex justify-center items-center cursor-pointer" href={{
-          pathname: `/search/${search}`,
+          pathname: search == '' ? `/` : `/search/${search}`,
         }}>
           <i className="fa-solid fa-search text-xl text-lime-700"></i>
         </Link>
