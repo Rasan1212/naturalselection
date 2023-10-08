@@ -156,8 +156,8 @@ const Item_Detail = ({ cactigors, item, brand }) => {
                                 <div className="font-bold">{langg == "En" ? "Price : " : langg == "Ar" ? "سعر : " : "نرخ : "}</div>
                                 <div>{items[0].item_price}</div>
                             </div>
-                            <div className="flex items-center justify-between mb-20">
-                                <div className="font-bold">{langg == "En" ? "Description : " : langg == "Ar" ? "وصف : " : "وەسف : "}</div>
+                            <div className=" mb-20">
+                                <div className="font-bold">{langg == "En" ? "Description : " : langg == "Ar" ? "وصف : " : "زانیاری : "}</div>
                                 <div>{langg == "En" ? items[0].item_description : langg == "Ar" ? items[0].item_description_ar : items[0].item_description_ku}</div>
                             </div>
 

@@ -65,7 +65,7 @@ const TheFooter = () => {
               }
             >
               <p className="hover:text-lime-700 mb-5 transition-all duration-300 cursor-pointer   ">
-                {langg == "En" ? "Login / Register" : langg == "Ar" ? "دخولتسجيل" : "چوونەژوورەوە / ناو تۆمارکردن"}
+                {langg == "En" ? "Login / Register" : langg == "Ar" ? "تسجيل الدخول" : "چوونەژوورەوە / ناو تۆمارکردن"}
               </p>
             </Link>
             {/* Login */}

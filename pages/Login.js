@@ -127,7 +127,7 @@ const Login = ({ cactigors, item, brand }) => {
           <div className="w-full ">
             <div className="flex items-center justify-center">
               <p className="w-40 text-center border-lime-600  text-lg lg:text-3xl h-20 flex  font-bold items-center md:text-2xl mb-10  text-[#212121]  justify-center border-b-2">
-                {langg == "En" ? "LOGIN" : langg == "Ar" ? "تسجيل الدخول" : "چونه‌ ژووره‌وه‌"}
+                {langg == "En" ? "LOGIN" : langg == "Ar" ? "تسجيل الدخول" : "چونه‌ژووره‌وه‌"}
               </p>
             </div>
             <div className="w-full flex justify-center mt-8 ">
@@ -165,7 +165,7 @@ const Login = ({ cactigors, item, brand }) => {
                   onClick={submite}
                   className="border h-14 w-32 text-lg  font-bold  bg-lime-600  text-white  rounded-md  hover:bg-gray-300 hover:text-[#212121] duration-500 transition-all "
                 >
-                  {langg == "En" ? "Login" : langg == "Ar" ? "تسجيل الدخول" : "چوونە ژورەوە"}
+                  {langg == "En" ? "Login" : langg == "Ar" ? "تسجيل الدخول" : "چونه‌ژووره‌وه‌"}
                 </button>{" "}
               </div>
 

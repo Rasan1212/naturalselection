@@ -128,7 +128,7 @@ const User = ({ cactigors, item, brand, user }) => {
                   className="h-10 w-full border-b      mr-5 hover:bg-emerald-900 hover:text-white transition-all duration-700  text-xs sm:text-sm lg:text-base
          "
                 >
-                  {langg == "En" ? "Login" : langg == "Ar" ? "تسجيل الدخول" : "چونه‌ ژووره‌وه‌"}
+                  {langg == "En" ? "Login" : langg == "Ar" ? "تسجيل الدخول" : "چونه‌ژووره‌وه‌"}
                 </button>
               </Link>
             )}

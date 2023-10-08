@@ -128,7 +128,7 @@ const Navbar = ({ cactigors, brand }) => {
               }
             >
               <p className="group-hover:text-lime-700   transition-all duration-300 cursor-pointer ">
-                {langg == 'En' ? "LOGIN" : langg == 'Ar' ? "تسجيل الدخول" : "چونەژورەوە"}
+                {langg == 'En' ? "LOGIN" : langg == 'Ar' ? "تسجيل الدخول" : "چونه‌ژووره‌وه‌"}
               </p>
             </Link>
             <Link
@@ -377,7 +377,7 @@ const Navbar = ({ cactigors, brand }) => {
             className="flex  items-center pt-10 justify-center gap-2 group "
           >
             <button className="w-full h-14 rounded-md bg-emerald-900 text-white  transition-all duration-300 cursor-pointer mb-10 ">
-              {langg == 'En' ? "login" : langg == 'Ar' ? "تسجيل الدخول" : "چونه‌ ژووره‌وه‌"}
+              {langg == 'En' ? "login" : langg == 'Ar' ? "تسجيل الدخول" : "چونه‌ژووره‌وه‌"}
             </button>
           </Link>
         </div>
