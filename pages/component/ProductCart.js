@@ -53,7 +53,7 @@ const ProductCart = (props) => {
         <div className="text-center">
           {" "}
           <h1 className="px-5">{langg == "En" ? props?.title : langg == "Ar" ? props?.titlear : props?.titleku}</h1>
-          <div className="text-red-600 mt-1 font-bold">${props?.price}</div>
+          <div className="text-red-600 mt-1 font-bold">{props?.price} IQD</div>
         </div>
         <Link
           href={{

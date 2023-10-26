@@ -13,7 +13,7 @@ const ServSection = () => {
             </div>
             <div className="mt-2 text-center  text-lg">Free Shipping</div>
             <p className="text-center text-sm">
-              Free Shipping on order over $99
+              Free Shipping on order over 99 IQD
             </p>
           </div>
         </div>

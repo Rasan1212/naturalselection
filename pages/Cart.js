@@ -139,7 +139,7 @@ const Card = ({ cactigors, item1, brand }) => {
                     </button>
                   </div>
                   {/*  */}
-                  <div className="font-bold">{value.price}$</div>
+                  <div className="font-bold">{value.price} IQD</div>
                   <button
                     onClick={() => localStorage.setItem("items", items)}
                   ></button>
@@ -176,7 +176,7 @@ const Card = ({ cactigors, item1, brand }) => {
             </div>{" "}
             <div className="text-lg font-bold mt-10 md:mt-0 ">
               {" "}
-              {langg == "En" ? "Total price" : langg == "Ar" ? "السعر الكلي" : "نرخی گشتی"} : {tottal}$
+              {langg == "En" ? "Total price" : langg == "Ar" ? "السعر الكلي" : "نرخی گشتی"} : {tottal} IQD
             </div>
           </div>
         </div>
