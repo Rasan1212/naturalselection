@@ -3,9 +3,11 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+
 body {
   font-family: "PT Sans Narrow", sans-serif;
 }
+
 .man-catigory {
   background-image: url("https://themesflat.com/html/modaz/images/image-box/imgbox-1-375x500.jpg");
 }
@@ -13,6 +15,7 @@ body {
 .kids-catigory {
   background-image: url("https://themesflat.com/html/modaz/images/image-box/imgbox-1-375x240.jpg");
 }
+
 .exs-catigory {
   background-image: url("https://themesflat.com/html/modaz/images/image-box/imgbox-2-375x240.jpg");
 }
@@ -20,24 +23,31 @@ body {
 .women-catigory {
   background-image: url("https://themesflat.com/html/modaz/images/image-box/imgbox-2-375x500.jpg");
 }
+
 .collecttion {
-  background-image: url("https://img.freepik.com/premium-photo/woman-hand-she-wears-yellow-shirt-holding-shopping-bags-multicolor_143683-5324.jpg?w=2000");
+  background-image: url("thali2.png");
 }
+
 .first-serv {
   background-image: url("https://i.pinimg.com/originals/27/b0/23/27b023e776f1297c1d5b06f14580b4eb.png");
 }
+
 .second-serv {
   background-image: url("http://cdn.shopify.com/s/files/1/0082/6363/0953/products/WhatsApp_Image_2019-11-18_at_13.47.29_1200x1200.jpg?v=1601095510");
 }
+
 .therd-serv {
   background-image: url("https://www.lulus.com/images/product/xlarge/4946710_927982.jpg?w=195&hdpi=1");
 }
+
 .product-img {
   background-image: url("https://themesflat.com/html/modaz/images/shop/sh-4/13.jpg");
 }
+
 .shop-header {
-  background-image: url("https://www.shannonspringshotel.com/wp-content/uploads/2020/06/shopping-shannon-springs-2.jpg");
+  background-image: url("bannersho1.jpg");
 }
+
 .logo {
   background-image: url(logo.png);
 }
@@ -50,9 +60,11 @@ body {
   background-color: rgb(240, 235, 235);
   padding: 10px;
 }
+
 .signup-bg {
   background-image: url("https://blog.mailup.com/wp-content/uploads/formato-immagini-facebook-scaled.jpg");
 }
+
 loader {
   position: relative;
 }
@@ -110,7 +122,7 @@ loader {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
- 
+
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
