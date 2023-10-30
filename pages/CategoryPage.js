@@ -32,8 +32,8 @@ const CategoryPage = ({ cactigors, item, brand }) => {
     //  
     <>
       <Navbar cactigors={cactigors} brand={brand} />
-      <div className="pt-24" dir={langg == "En" ? "ltr" : "rtl"}>
-        <div className="flex items-center justify-center text-xl md:text-2xl lg:text-4xl font-semibold h-[150px]  shop-header bg-cover bg-center bg-no-repeat">
+      <div className="pt-36" dir={langg == "En" ? "ltr" : "rtl"}>
+        <div className="flex items-center justify-center text-xl md:text-2xl lg:text-4xl font-semibold h-[150px]  shop-header bg-cover bg-center bg-no-repeat text-white">
           {query.name}
         </div>
         <div className="flex justify-center items-center my-10">
